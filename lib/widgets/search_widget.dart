@@ -28,7 +28,7 @@ class SearchWidget extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
           decoration: InputDecoration(
-            hintStyle: TextStyle(fontSize: 16, fontWeight: FontWeight.normal),
+            hintStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.normal),
             hintText: 'Search here...',
             border: InputBorder.none,
             suffixIcon: Icon(
