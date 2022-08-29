@@ -13,6 +13,9 @@ class DetailsPage extends StatelessWidget {
           statusBarColor: Colors.transparent,
         ),
         backgroundColor: Colors.transparent,
+        leading: const BackButton(
+          color: Colors.black, // <-- SEE HERE
+        ),
         elevation: 0,
         title: Row(
           children: [
@@ -115,7 +118,7 @@ class DetailsPage extends StatelessWidget {
                           Icons.star,
                           size: 24,
                           color: i != 4
-                              ? const Color.fromARGB(255, 232, 162, 9)
+                              ? Color.fromARGB(255, 248, 172, 7)
                               : Colors.grey.withOpacity(0.5),
                         )
                     ],

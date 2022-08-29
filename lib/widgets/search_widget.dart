@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class SearchWidget extends StatelessWidget {
   const SearchWidget({Key? key}) : super(key: key);
@@ -9,8 +7,11 @@ class SearchWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-        padding: const EdgeInsets.all(20),
-        height: 70,
+        padding: const EdgeInsets.symmetric(
+          horizontal: 20,
+          vertical: 10,
+        ),
+        height: 55,
         decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(
@@ -28,7 +29,7 @@ class SearchWidget extends StatelessWidget {
             suffixIcon: Icon(
               Icons.search_outlined,
               color: Color.fromARGB(255, 1, 12, 50),
-              size: 30,
+              size: 28,
             ),
           ),
         ));

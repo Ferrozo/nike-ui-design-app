@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         "detailsPage": (context) => const DetailsPage(),
       },
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

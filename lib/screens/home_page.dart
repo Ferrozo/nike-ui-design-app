@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
               onPressed: () {},
               icon: const Icon(
                 Icons.menu,
-                color: Colors.grey,
+                color: Colors.black,
                 size: 25,
               ),
             ),
