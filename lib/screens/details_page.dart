@@ -285,7 +285,7 @@ class DetailsPage extends StatelessWidget {
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Color.fromARGB(192, 248, 182, 40),
-                            fontSize: 20,
+                            fontSize: 16,
                           ),
                         ),
                       ),

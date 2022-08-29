@@ -24,7 +24,12 @@ class SearchWidget extends StatelessWidget {
           borderRadius: BorderRadius.circular(30),
         ),
         child: const TextField(
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
           decoration: InputDecoration(
+            hintStyle: TextStyle(fontSize: 16, fontWeight: FontWeight.normal),
+            hintText: 'Search here...',
             border: InputBorder.none,
             suffixIcon: Icon(
               Icons.search_outlined,
