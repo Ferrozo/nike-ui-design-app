@@ -4,5 +4,5 @@ nike-ui-design-app
 
 The app output
 <div>
-    <img src='./output.gif' height='500px'>
+    <img src='./app_output.gif' height='500px'>
 </div>
